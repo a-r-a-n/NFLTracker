@@ -5,14 +5,13 @@
 package pro.nfltracker.ui;
 
 import java.util.Scanner;
-import pro.nfltracker.util.InputChecker;
 
 public class Menu {
     private final Scanner sc = new Scanner(System.in);
 
     public void show() {
         int choice = -1;
-        WelcomeHeader.display();
+        Headers.display();
 
         while (choice != 0) {
 

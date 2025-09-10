@@ -1,6 +1,6 @@
 package pro.nfltracker.ui;
 
-public class WelcomeHeader {
+public class Headers {
 
     public static void display() {
         System.out.println("############################################################");
