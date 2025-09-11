@@ -86,7 +86,7 @@ public class Menu {
                 case 2 -> System.out.println("      [TODO] Display interceptions for " + teamName);
                 case 3 -> System.out.println("      [TODO] Display sacks for " + teamName);
                 case 0 -> System.out.println("      Returning to Team Menu...");
-                default -> System.out.println("      Invalid choice. Try again.\n");
+                default -> System.out.println("      Invalid choice.\n");
             }
         }
     }
